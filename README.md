@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Agube%20Ikenna&fontSize=60&fontColor=fff&fontAlignY=40&desc=Data%20Analyst%20%7C%20Environmental%20Scientist%20%7C%20Software%20Builder&descAlignY=58&descSize=18&animation=twinkling" />
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=Agube%20Ikenna&fontSize=60&fontColor=fff&fontAlignY=40&desc=Data%20Analyst%20%7C%20Environmental%20Scientist%20%7C%20Software%20Builder&descAlignY=58&descSize=18&animation=twinkling)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=860&lines=MSc+Environmental+Toxicology+Researcher+%F0%9F%8C%8D;Data+Analysis+%2B+Scientific+Computing+%F0%9F%94%AC;Building+clean%2C+useful+tools+with+React+%26+R+%F0%9F%9B%A0%EF%B8%8F;Turning+complex+data+into+clear+decisions+%F0%9F%93%8A" alt="Typing SVG" />
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=2DD4BF&center=true&vCenter=true&width=860&lines=MSc+Environmental+Toxicology+Researcher+%F0%9F%8C%8D;Data+Analysis+%2B+Scientific+Computing+%F0%9F%94%AC;Building+clean%2C+useful+tools+with+React+%26+R+%F0%9F%9B%A0%EF%B8%8F;Turning+complex+data+into+clear+decisions+%F0%9F%93%8A)
 
 <br/>
 
@@ -170,6 +170,6 @@ My work bridges rigorous scientific thinking and clean software — I care as mu
 
 <img src="https://github.com/Agube-Ikenna/Agube-Ikenna/blob/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling)
 
 </div>
