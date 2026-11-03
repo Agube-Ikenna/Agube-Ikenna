@@ -45,7 +45,14 @@ var date26 = ['2026-07-01','2026-11-01'];
 var dw = ee.ImageCollection('GOOGLE/DYNAMICWORLD/V1').filterBounds(nigeria);
 function treeComposite(window) {
   var collection = dw.filterDate(window[0],window[1]).select('trees');
-  return {p:collection.mean(),n:collection.count(), scenes:collection.size()};
+  var empty = ee.Image.constant(0).rename('trees')
+    .updateMask(ee.Image.constant(0));
+  var hasData = collection.size().gt(0);
+  return {
+    p:ee.Image(ee.Algorithms.If(hasData,collection.mean(),empty)),
+    n:ee.Image(ee.Algorithms.If(hasData,collection.count(),empty)),
+    scenes:collection.size()
+  };
 }
 var a = treeComposite(date15);
 var b = treeComposite(date26);
