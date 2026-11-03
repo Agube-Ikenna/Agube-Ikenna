@@ -50,6 +50,23 @@ Data analyst and environmental researcher with an MSc in Environmental Toxicolog
 
 ---
 
+## Nigeria Environmental Data Observatory (In Development)
+
+An independent portfolio initiative exploring environmental pressures in Nigeria through **open data, reproducible analysis, maps and accessible visualizations**. The aim is to communicate both the scientific evidence and its limitations, without presenting proximity or correlation as proof of exposure or causation.
+
+| Planned study | Research direction | Primary public data |
+|---|---|---|
+| **Nigeria Gas Flaring Atlas (2012–2025)** | Flare-volume trends and geographic distribution | [World Bank GFMR Global Flaring Data](https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data) |
+| **Niger Delta Oil Spill Monitor** | Reported incidents, cleanup data and geographic hotspots | [NOSDRA Oil Spill Monitor](https://nosdra.oilspillmonitor.ng/) |
+| **Nigeria Flood & Rainfall Atlas** | Seasonal rainfall, flooding and population exposure | [CHIRPS](https://www.chc.ucsb.edu/data) and [WorldPop](https://www.worldpop.org/) |
+| **Forest-cover Change in Southeastern Nigeria** | Land-use change and forest loss | [Global Forest Watch](https://www.globalforestwatch.org/) |
+
+**Current phase:** project setup and dataset validation. Findings, maps and dashboards will be linked when published. The first planned study is the **Nigeria Gas Flaring Atlas**, using the World Bank's 2026 Global Gas Flaring Tracker datasets.
+
+**Publication standard:** each completed study will feature a visual-first README, source citations, downloadable derived data where licensing permits, clear methods, and a reproducible analysis workflow.
+
+---
+
 ## Projects
 
 <div align="center">
