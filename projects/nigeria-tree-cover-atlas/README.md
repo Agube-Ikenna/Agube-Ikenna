@@ -4,6 +4,14 @@
 
 Research question: **What changed in satellite-estimated tree cover across Nigeria's six geopolitical zones between matching July–October windows in 2015 and 2026?**
 
+## Start here: a map that tells the story
+
+**New:** [Open the six-zone tree-cover loss dashboard script](earth-engine/forest_loss_story_2015_2025.js). It adds three charts to the map: (1) ranked mapped gross tree-cover loss in km² by zone, (2) annual trends from 2015 through 2025, and (3) zone-size-adjusted loss rates. Two CSV exports are defined in the Earth Engine **Tasks** tab. Copy the script into [Google Earth Engine](https://code.earthengine.google.com/) and click **Run** to calculate actual figures.
+
+**Why 2025 for the numerical results?** The official Hansen/UMD v1.13 Landsat tree-cover loss series extends through **2025**, not 2026. The separate [2015 vs 2026 satellite viewer](earth-engine/visual_comparison.js) remains a *provisional visual comparison*, especially where 2015 Sentinel-2 data are sparse. Do not infer full-year 2026 forest loss from the satellite viewer.
+
+**Definition:** Gross canopy-loss area is computed from Hansen loss-year pixels for 2015–2025, restricted to areas with >=30% tree cover in the year 2000. It is not net forest change, total forest stock, or a direct measurement of all trees in 2015. Maps and rankings require boundary and numerical validation before publication.
+
 ## Research design
 
 - **Regions:** North Central, North East, North West, South East, South South, South West.
