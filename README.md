@@ -52,6 +52,10 @@ Data analyst and environmental researcher with an MSc in Environmental Toxicolog
 
 ## Nigeria Environmental Data Observatory (In Development)
 
+**Active pilot:** [Nigeria Tree Cover Change Atlas (2015–2026)](projects/nigeria-tree-cover-atlas/README.md) — six geopolitical zones, matched-season satellite imagery, and a reproducible Google Earth Engine visual comparison. Outputs and findings are pending data validation.
+
+
+
 An independent portfolio initiative exploring environmental pressures in Nigeria through **open data, reproducible analysis, maps and accessible visualizations**. The aim is to communicate both the scientific evidence and its limitations, without presenting proximity or correlation as proof of exposure or causation.
 
 | Planned study | Research direction | Primary public data |
