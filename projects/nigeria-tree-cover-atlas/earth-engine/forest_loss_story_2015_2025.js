@@ -78,7 +78,7 @@ var stats = annual.reduceRegions({
   collection: zones,
   reducer: ee.Reducer.sum(),
   scale: 30,
-  crs: 'EPSG:6933',
+  crs: 'EPSG:4326',
   tileScale: 8,
   maxPixelsPerRegion: 2000000000
 });
