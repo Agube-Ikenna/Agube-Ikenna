@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "zone_year_rows": 66,
+  "state_year_rows": 407,
+  "peak_year": 2017,
+  "total_mapped_loss_km2": 11032.5069092877,
+  "state_zone_difference_pct": 0.0366532658339125,
+  "independent_accuracy_validation": "Not completed"
+}

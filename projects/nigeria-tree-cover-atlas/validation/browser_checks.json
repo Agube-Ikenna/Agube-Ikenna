@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "desktop_width": 826,
+  "mobile_width": 390,
+  "checks": [
+    "All three tabs render",
+    "Annual chart shows eleven years 2015 through 2025",
+    "Annual source inspector exposes definition and CSV source",
+    "Sensitivity zone filter updates chart and table",
+    "South East displays undefined sample change and no plotted zero",
+    "Mobile cards stack and tables scroll within cards"
+  ],
+  "limitations": [
+    "Not a comprehensive accessibility audit",
+    "All export destinations and chart-editor permutations were not tested"
+  ],
+  "preview": "Local loopback server; no public hosting configured"
+}

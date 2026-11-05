@@ -1,0 +1,2220 @@
+{
+  "surface": "dashboard",
+  "title": "Nigeria tree-cover atlas",
+  "generatedAt": "2026-11-05T09:44:46Z",
+  "status": "observed",
+  "buildStatus": "complete",
+  "exportPreferences": {
+    "selected": {},
+    "destinations": []
+  },
+  "queries": {
+    "dw_zones": {
+      "rows": [
+        {
+          "system:index": 1,
+          "analysis_crs": "EPSG:32632",
+          "analysis_scale_m": 10,
+          "built_expansion_km2": 347.446314749954,
+          "common_km2": 193676.334477451,
+          "crop_expansion_km2": 67.6050703122337,
+          "end_year": 2025,
+          "gain_km2": 7494.29251860274,
+          "loss_km2": 8746.82118681727,
+          "loss_other_km2": 8736.4079351965,
+          "loss_to_built_km2": 3.1691627570802,
+          "loss_to_crop_km2": 7.24408886368494,
+          "minimum_observations": 2,
+          "non_tree_km2": 172751.251794183,
+          "number_of_states": 6,
+          "persistent_km2": 4683.96897784859,
+          "pressure_threshold": 0.5,
+          "region_km2": 279239.525298703,
+          "run_id": "2015_2025_JulOct_p0p5_n2_s10_grid10000_pressure0p5",
+          "season": "JulOct",
+          "start_year": 2015,
+          "tree_after_km2": 12178.2614964513,
+          "tree_before_km2": 13430.7901646659,
+          "tree_threshold": 0.5,
+          "valid_after_km2": 245138.155146955,
+          "valid_before_km2": 199403.972460773,
+          "zone": "North East",
+          ".geo": "{\"type\":\"MultiPoint\",\"coordinates\":[]}",
+          "common_coverage_pct": 69.3584958183393,
+          "loss_pct_common": 4.51620545711826,
+          "gain_pct_common": 3.86949316178599,
+          "loss_pct_baseline_tree": 65.1251421515666,
+          "gain_pct_baseline_non_tree": 4.15782401011681,
+          "net_change_km2": -1252.52866821453,
+          "gross_change_km2": 16241.11370542,
+          "gross_change_pct_common": 8.38569861890424,
+          "mean_annual_net_change_km2": -125.252866821453,
+          "loss_to_crop_pct": 0.0828196748162959,
+          "loss_to_built_pct": 0.0362321658279306
+        },
+        {
+          "system:index": 0,
+          "analysis_crs": "EPSG:32632",
+          "analysis_scale_m": 10,
+          "built_expansion_km2": 106.273328435081,
+          "common_km2": 49366.4384733437,
+          "crop_expansion_km2": 65.5480386102654,
+          "end_year": 2025,
+          "gain_km2": 4232.58790849152,
+          "loss_km2": 5579.75792375407,
+          "loss_other_km2": 5564.78059129378,
+          "loss_to_built_km2": 5.20994593007111,
+          "loss_to_crop_km2": 9.76738653021956,
+          "minimum_observations": 2,
+          "non_tree_km2": 36261.897655299,
+          "number_of_states": 7,
+          "persistent_km2": 3292.19498579924,
+          "pressure_threshold": 0.5,
+          "region_km2": 227959.754558127,
+          "run_id": "2015_2025_JulOct_p0p5_n2_s10_grid10000_pressure0p5",
+          "season": "JulOct",
+          "start_year": 2015,
+          "tree_after_km2": 7524.78289429075,
+          "tree_before_km2": 8871.95290955331,
+          "tree_threshold": 0.5,
+          "valid_after_km2": 108182.318104439,
+          "valid_before_km2": 57211.7187118629,
+          "zone": "North Central",
+          ".geo": "{\"type\":\"MultiPoint\",\"coordinates\":[]}",
+          "common_coverage_pct": 21.655769269025,
+          "loss_pct_common": 11.3027354135886,
+          "gain_pct_common": 8.57381662397416,
+          "loss_pct_baseline_tree": 62.8921048233449,
+          "gain_pct_baseline_non_tree": 10.4522575100355,
+          "net_change_km2": -1347.17001526255,
+          "gross_change_km2": 9812.34583224559,
+          "gross_change_pct_common": 19.8765520375628,
+          "mean_annual_net_change_km2": -134.717001526255,
+          "loss_to_crop_pct": 0.175050363540647,
+          "loss_to_built_pct": 0.0933722573857801
+        },
+        {
+          "system:index": 2,
+          "analysis_crs": "EPSG:32632",
+          "analysis_scale_m": 10,
+          "built_expansion_km2": 323.420060263613,
+          "common_km2": 93107.0134676575,
+          "crop_expansion_km2": 35.6589539733644,
+          "end_year": 2025,
+          "gain_km2": 4839.64385833991,
+          "loss_km2": 3274.97360364605,
+          "loss_other_km2": 3272.20757238304,
+          "loss_to_built_km2": 1.06986996967528,
+          "loss_to_crop_km2": 1.69616129333735,
+          "minimum_observations": 2,
+          "non_tree_km2": 82396.9339983625,
+          "number_of_states": 7,
+          "persistent_km2": 2595.46200730891,
+          "pressure_threshold": 0.5,
+          "region_km2": 214376.019346443,
+          "run_id": "2015_2025_JulOct_p0p5_n2_s10_grid10000_pressure0p5",
+          "season": "JulOct",
+          "start_year": 2015,
+          "tree_after_km2": 7435.10586564883,
+          "tree_before_km2": 5870.43561095498,
+          "tree_threshold": 0.5,
+          "valid_after_km2": 209435.65364217,
+          "valid_before_km2": 94005.9925647584,
+          "zone": "North West",
+          ".geo": "{\"type\":\"MultiPoint\",\"coordinates\":[]}",
+          "common_coverage_pct": 43.4316365009053,
+          "loss_pct_common": 3.51742954872425,
+          "gain_pct_common": 5.1979369524306,
+          "loss_pct_baseline_tree": 55.7875738818179,
+          "gain_pct_baseline_non_tree": 5.54772318819023,
+          "net_change_km2": 1564.67025469385,
+          "gross_change_km2": 8114.61746198596,
+          "gross_change_pct_common": 8.71536650115486,
+          "mean_annual_net_change_km2": 156.467025469385,
+          "loss_to_crop_pct": 0.051791601967387,
+          "loss_to_built_pct": 0.0326680486366113
+        },
+        {
+          "system:index": 5,
+          "analysis_crs": "EPSG:32632",
+          "analysis_scale_m": 10,
+          "built_expansion_km2": 5.40488168890528,
+          "common_km2": 1834.17162926267,
+          "crop_expansion_km2": 1.00109049334458,
+          "end_year": 2025,
+          "gain_km2": 214.04356406797,
+          "loss_km2": 215.567963328373,
+          "loss_other_km2": 215.118157289901,
+          "loss_to_built_km2": 0.186267491713807,
+          "loss_to_crop_km2": 0.263538546757356,
+          "minimum_observations": 2,
+          "non_tree_km2": 963.764309126347,
+          "number_of_states": 6,
+          "persistent_km2": 440.795792739982,
+          "pressure_threshold": 0.5,
+          "region_km2": 76171.539370683,
+          "run_id": "2015_2025_JulOct_p0p5_n2_s10_grid10000_pressure0p5",
+          "season": "JulOct",
+          "start_year": 2015,
+          "tree_after_km2": 654.839356807953,
+          "tree_before_km2": 656.363756068354,
+          "tree_threshold": 0.5,
+          "valid_after_km2": 6674.79497251273,
+          "valid_before_km2": 9075.33268179867,
+          "zone": "South West",
+          ".geo": "{\"type\":\"MultiPoint\",\"coordinates\":[]}",
+          "common_coverage_pct": 2.40794874885857,
+          "loss_pct_common": 11.7528785141568,
+          "gain_pct_common": 11.6697674663093,
+          "loss_pct_baseline_tree": 32.8427585062944,
+          "gain_pct_baseline_non_tree": 18.1730457861065,
+          "net_change_km2": -1.52439926040219,
+          "gross_change_km2": 429.611527396343,
+          "gross_change_pct_common": 23.4226459804661,
+          "mean_annual_net_change_km2": -0.152439926040219,
+          "loss_to_crop_pct": 0.122253113444279,
+          "loss_to_built_pct": 0.0864077800976702
+        },
+        {
+          "system:index": 4,
+          "analysis_crs": "EPSG:32632",
+          "analysis_scale_m": 10,
+          "built_expansion_km2": 0.149929209932452,
+          "common_km2": 229.079973973162,
+          "crop_expansion_km2": 0.100401689509454,
+          "end_year": 2025,
+          "gain_km2": 15.8185471137778,
+          "loss_km2": 33.4366962578106,
+          "loss_other_km2": 33.2998291011,
+          "loss_to_built_km2": 0.0364654672011966,
+          "loss_to_crop_km2": 0.100401689509454,
+          "minimum_observations": 2,
+          "non_tree_km2": 38.9694122749489,
+          "number_of_states": 6,
+          "persistent_km2": 140.855318326624,
+          "pressure_threshold": 0.5,
+          "region_km2": 82702.1059063611,
+          "run_id": "2015_2025_JulOct_p0p5_n2_s10_grid10000_pressure0p5",
+          "season": "JulOct",
+          "start_year": 2015,
+          "tree_after_km2": 156.673865440402,
+          "tree_before_km2": 174.292014584435,
+          "tree_threshold": 0.5,
+          "valid_after_km2": 1706.09838828682,
+          "valid_before_km2": 341.727605203154,
+          "zone": "South South",
+          ".geo": "{\"type\":\"MultiPoint\",\"coordinates\":[]}",
+          "common_coverage_pct": 0.276994124227666,
+          "loss_pct_common": 14.5960799968172,
+          "gain_pct_common": 6.9052509651634,
+          "loss_pct_baseline_tree": 19.1842961581079,
+          "gain_pct_baseline_non_tree": 28.8723056858962,
+          "net_change_km2": -17.6181491440328,
+          "gross_change_km2": 49.2552433715884,
+          "gross_change_pct_common": 21.5013309619806,
+          "mean_annual_net_change_km2": -1.76181491440328,
+          "loss_to_crop_pct": 0.300273952711463,
+          "loss_to_built_pct": 0.109058224293551
+        },
+        {
+          "system:index": 3,
+          "analysis_crs": "EPSG:32632",
+          "analysis_scale_m": 10,
+          "built_expansion_km2": 0,
+          "common_km2": 0,
+          "crop_expansion_km2": 0,
+          "end_year": 2025,
+          "gain_km2": 0,
+          "loss_km2": 0,
+          "loss_other_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_to_crop_km2": 0,
+          "minimum_observations": 2,
+          "non_tree_km2": 0,
+          "number_of_states": 5,
+          "persistent_km2": 0,
+          "pressure_threshold": 0.5,
+          "region_km2": 28514.9155141915,
+          "run_id": "2015_2025_JulOct_p0p5_n2_s10_grid10000_pressure0p5",
+          "season": "JulOct",
+          "start_year": 2015,
+          "tree_after_km2": 0,
+          "tree_before_km2": 0,
+          "tree_threshold": 0.5,
+          "valid_after_km2": 22.6386467524726,
+          "valid_before_km2": 0,
+          "zone": "South East",
+          ".geo": "{\"type\":\"MultiPoint\",\"coordinates\":[]}",
+          "common_coverage_pct": 0,
+          "loss_pct_common": null,
+          "gain_pct_common": null,
+          "loss_pct_baseline_tree": null,
+          "gain_pct_baseline_non_tree": null,
+          "net_change_km2": 0,
+          "gross_change_km2": 0,
+          "gross_change_pct_common": null,
+          "mean_annual_net_change_km2": 0,
+          "loss_to_crop_pct": null,
+          "loss_to_built_pct": null
+        }
+      ],
+      "source": {
+        "label": "Dynamic World endpoint metrics",
+        "provider": "Google Earth Engine",
+        "files": [
+          "data/dynamic_world/zone_rankings_and_coverage.csv"
+        ],
+        "links": [
+          {
+            "label": "Dynamic World endpoint metrics",
+            "url": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1"
+          }
+        ],
+        "description": "July–October 2015 versus 2025, 10 m grid, mean tree probability >=0.5, >=2 predictions per endpoint. No extrapolation.",
+        "evidenceFlow": [
+          {
+            "title": "Reproduce",
+            "detail": "Run the R scripts described in README.md. Input/output: data/dynamic_world/zone_rankings_and_coverage.csv"
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Dynamic World endpoint metrics",
+            "definition": "Change (%) = 100*(loss_km2+gain_km2)/common_km2; paired coverage (%) =100*common_km2/region_km2. Null change where no paired area."
+          }
+        ]
+      }
+    },
+    "hansen_annual": {
+      "rows": [
+        {
+          "year": 2015,
+          "loss_ha": 40947.7418191921,
+          "loss_km2": 409.477418191921,
+          "moving_mean_km2": null
+        },
+        {
+          "year": 2016,
+          "loss_ha": 72226.38191223,
+          "loss_km2": 722.2638191223,
+          "moving_mean_km2": 947.79836832612
+        },
+        {
+          "year": 2017,
+          "loss_ha": 171165.386766414,
+          "loss_km2": 1711.65386766414,
+          "moving_mean_km2": 1211.00741511262
+        },
+        {
+          "year": 2018,
+          "loss_ha": 119910.455855141,
+          "loss_km2": 1199.10455855141,
+          "moving_mean_km2": 1260.13133836314
+        },
+        {
+          "year": 2019,
+          "loss_ha": 86963.5588873884,
+          "loss_km2": 869.635588873884,
+          "moving_mean_km2": 1020.36463406832
+        },
+        {
+          "year": 2020,
+          "loss_ha": 99235.375477966,
+          "loss_km2": 992.353754779659,
+          "moving_mean_km2": 944.817350035344
+        },
+        {
+          "year": 2021,
+          "loss_ha": 97246.270645249,
+          "loss_km2": 972.462706452489,
+          "moving_mean_km2": 1008.84912116321
+        },
+        {
+          "year": 2022,
+          "loss_ha": 106173.090225747,
+          "loss_km2": 1061.73090225747,
+          "moving_mean_km2": 962.441518037876
+        },
+        {
+          "year": 2023,
+          "loss_ha": 85313.0945403663,
+          "loss_km2": 853.130945403663,
+          "moving_mean_km2": 990.655745775245
+        },
+        {
+          "year": 2024,
+          "loss_ha": 105710.53896646,
+          "loss_km2": 1057.1053896646,
+          "moving_mean_km2": 1031.27476446481
+        },
+        {
+          "year": 2025,
+          "loss_ha": 118358.795832617,
+          "loss_km2": 1183.58795832617,
+          "moving_mean_km2": null
+        }
+      ],
+      "source": {
+        "label": "Nigeria annual mapped gross loss",
+        "provider": "Hansen/UMD/Google/USGS/NASA",
+        "files": [
+          "data/hansen/annual_nigeria_loss.csv"
+        ],
+        "links": [
+          {
+            "label": "Nigeria annual mapped gross loss",
+            "url": "https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2025_v1_13"
+          }
+        ],
+        "description": "GFC 2025 v1.13, 2015–2025 inclusive; year-2000 canopy >=30%; mapped land only.",
+        "evidenceFlow": [
+          {
+            "title": "Reproduce",
+            "detail": "Run the R scripts described in README.md. Input/output: data/hansen/annual_nigeria_loss.csv"
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Nigeria annual mapped gross loss",
+            "definition": "Sum of geodesic pixel area assigned to each annual loss code across the six zones; km² = hectares/100. Gross loss, not net change or permanent deforestation."
+          }
+        ]
+      }
+    },
+    "hansen_zones": {
+      "rows": [
+        {
+          "region": "South South",
+          "total_loss_ha": 461917.313888326,
+          "total_loss_km2": 4619.17313888326,
+          "region_area_ha": 8270348.94995532,
+          "mapped_land_ha": 8105765.41486428,
+          "mean_annual_loss_ha": 41992.4830807569,
+          "loss_pct_of_region_area": 5.58522157509233
+        },
+        {
+          "region": "South West",
+          "total_loss_ha": 374335.769579351,
+          "total_loss_km2": 3743.35769579351,
+          "region_area_ha": 7617365.51708331,
+          "mapped_land_ha": 7532740.84708156,
+          "mean_annual_loss_ha": 34030.5245072137,
+          "loss_pct_of_region_area": 4.91424192182764
+        },
+        {
+          "region": "North East",
+          "total_loss_ha": 138675.195249222,
+          "total_loss_km2": 1386.75195249222,
+          "region_area_ha": 27924247.4639335,
+          "mapped_land_ha": 27825329.1588975,
+          "mean_annual_loss_ha": 12606.8359317475,
+          "loss_pct_of_region_area": 0.496612112567519
+        },
+        {
+          "region": "North Central",
+          "total_loss_ha": 106601.530450396,
+          "total_loss_km2": 1066.01530450396,
+          "region_area_ha": 22796271.5454048,
+          "mapped_land_ha": 22609022.8559602,
+          "mean_annual_loss_ha": 9691.0482227633,
+          "loss_pct_of_region_area": 0.467627042598045
+        },
+        {
+          "region": "South East",
+          "total_loss_ha": 21238.9329691517,
+          "total_loss_km2": 212.389329691517,
+          "region_area_ha": 2851582.16494647,
+          "mapped_land_ha": 2846164.80273957,
+          "mean_annual_loss_ha": 1930.8120881047,
+          "loss_pct_of_region_area": 0.744812238982089
+        },
+        {
+          "region": "North West",
+          "total_loss_ha": 481.94879232347,
+          "total_loss_km2": 4.8194879232347,
+          "region_area_ha": 21437964.6023402,
+          "mapped_land_ha": 21314428.4160967,
+          "mean_annual_loss_ha": 43.8135265748609,
+          "loss_pct_of_region_area": 0.00224810890988624
+        }
+      ],
+      "source": {
+        "label": "Six-zone mapped gross loss",
+        "provider": "Hansen/UMD/Google/USGS/NASA",
+        "files": [
+          "data/hansen/zone_totals_and_size_adjustment.csv"
+        ],
+        "links": [
+          {
+            "label": "Six-zone mapped gross loss",
+            "url": "https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2025_v1_13"
+          }
+        ],
+        "description": "GFC 2025 v1.13; sum of eleven annual loss observations, 2015–2025. Cell-centre boundary inclusion.",
+        "evidenceFlow": [
+          {
+            "title": "Reproduce",
+            "detail": "Run the R scripts described in README.md. Input/output: data/hansen/zone_totals_and_size_adjustment.csv"
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Six-zone mapped gross loss",
+            "definition": "Loss / zone area (%) =100*total_loss_ha/region_area_ha. Geographic size adjustment does not control for baseline tree cover."
+          }
+        ]
+      }
+    },
+    "sensitivity": {
+      "rows": [
+        {
+          "zone": "North Central",
+          "sample_points": 200,
+          "paired_points": 60,
+          "loss_points": 9,
+          "gain_points": 11,
+          "tree_probability": 0.4,
+          "minimum_observations": 1,
+          "paired_sample_pct": 30,
+          "apparent_change_pct": 33.3333333333333
+        },
+        {
+          "zone": "North East",
+          "sample_points": 200,
+          "paired_points": 145,
+          "loss_points": 11,
+          "gain_points": 6,
+          "tree_probability": 0.4,
+          "minimum_observations": 1,
+          "paired_sample_pct": 72.5,
+          "apparent_change_pct": 11.7241379310345
+        },
+        {
+          "zone": "North West",
+          "sample_points": 200,
+          "paired_points": 106,
+          "loss_points": 3,
+          "gain_points": 13,
+          "tree_probability": 0.4,
+          "minimum_observations": 1,
+          "paired_sample_pct": 53,
+          "apparent_change_pct": 15.0943396226415
+        },
+        {
+          "zone": "South East",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.4,
+          "minimum_observations": 1,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South South",
+          "sample_points": 200,
+          "paired_points": 2,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.4,
+          "minimum_observations": 1,
+          "paired_sample_pct": 1,
+          "apparent_change_pct": 0
+        },
+        {
+          "zone": "South West",
+          "sample_points": 200,
+          "paired_points": 13,
+          "loss_points": 4,
+          "gain_points": 1,
+          "tree_probability": 0.4,
+          "minimum_observations": 1,
+          "paired_sample_pct": 6.5,
+          "apparent_change_pct": 38.4615384615385
+        },
+        {
+          "zone": "North Central",
+          "sample_points": 200,
+          "paired_points": 60,
+          "loss_points": 8,
+          "gain_points": 7,
+          "tree_probability": 0.5,
+          "minimum_observations": 1,
+          "paired_sample_pct": 30,
+          "apparent_change_pct": 25
+        },
+        {
+          "zone": "North East",
+          "sample_points": 200,
+          "paired_points": 145,
+          "loss_points": 6,
+          "gain_points": 2,
+          "tree_probability": 0.5,
+          "minimum_observations": 1,
+          "paired_sample_pct": 72.5,
+          "apparent_change_pct": 5.51724137931035
+        },
+        {
+          "zone": "North West",
+          "sample_points": 200,
+          "paired_points": 106,
+          "loss_points": 3,
+          "gain_points": 8,
+          "tree_probability": 0.5,
+          "minimum_observations": 1,
+          "paired_sample_pct": 53,
+          "apparent_change_pct": 10.377358490566
+        },
+        {
+          "zone": "South East",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.5,
+          "minimum_observations": 1,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South South",
+          "sample_points": 200,
+          "paired_points": 2,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.5,
+          "minimum_observations": 1,
+          "paired_sample_pct": 1,
+          "apparent_change_pct": 0
+        },
+        {
+          "zone": "South West",
+          "sample_points": 200,
+          "paired_points": 13,
+          "loss_points": 4,
+          "gain_points": 2,
+          "tree_probability": 0.5,
+          "minimum_observations": 1,
+          "paired_sample_pct": 6.5,
+          "apparent_change_pct": 46.1538461538462
+        },
+        {
+          "zone": "North Central",
+          "sample_points": 200,
+          "paired_points": 60,
+          "loss_points": 8,
+          "gain_points": 2,
+          "tree_probability": 0.6,
+          "minimum_observations": 1,
+          "paired_sample_pct": 30,
+          "apparent_change_pct": 16.6666666666667
+        },
+        {
+          "zone": "North East",
+          "sample_points": 200,
+          "paired_points": 145,
+          "loss_points": 4,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 1,
+          "paired_sample_pct": 72.5,
+          "apparent_change_pct": 2.75862068965517
+        },
+        {
+          "zone": "North West",
+          "sample_points": 200,
+          "paired_points": 106,
+          "loss_points": 0,
+          "gain_points": 3,
+          "tree_probability": 0.6,
+          "minimum_observations": 1,
+          "paired_sample_pct": 53,
+          "apparent_change_pct": 2.83018867924528
+        },
+        {
+          "zone": "South East",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 1,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South South",
+          "sample_points": 200,
+          "paired_points": 2,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 1,
+          "paired_sample_pct": 1,
+          "apparent_change_pct": 0
+        },
+        {
+          "zone": "South West",
+          "sample_points": 200,
+          "paired_points": 13,
+          "loss_points": 4,
+          "gain_points": 2,
+          "tree_probability": 0.6,
+          "minimum_observations": 1,
+          "paired_sample_pct": 6.5,
+          "apparent_change_pct": 46.1538461538462
+        },
+        {
+          "zone": "North Central",
+          "sample_points": 200,
+          "paired_points": 51,
+          "loss_points": 5,
+          "gain_points": 10,
+          "tree_probability": 0.4,
+          "minimum_observations": 2,
+          "paired_sample_pct": 25.5,
+          "apparent_change_pct": 29.4117647058824
+        },
+        {
+          "zone": "North East",
+          "sample_points": 200,
+          "paired_points": 142,
+          "loss_points": 9,
+          "gain_points": 6,
+          "tree_probability": 0.4,
+          "minimum_observations": 2,
+          "paired_sample_pct": 71,
+          "apparent_change_pct": 10.5633802816901
+        },
+        {
+          "zone": "North West",
+          "sample_points": 200,
+          "paired_points": 89,
+          "loss_points": 3,
+          "gain_points": 7,
+          "tree_probability": 0.4,
+          "minimum_observations": 2,
+          "paired_sample_pct": 44.5,
+          "apparent_change_pct": 11.2359550561798
+        },
+        {
+          "zone": "South East",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.4,
+          "minimum_observations": 2,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South South",
+          "sample_points": 200,
+          "paired_points": 2,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.4,
+          "minimum_observations": 2,
+          "paired_sample_pct": 1,
+          "apparent_change_pct": 0
+        },
+        {
+          "zone": "South West",
+          "sample_points": 200,
+          "paired_points": 5,
+          "loss_points": 1,
+          "gain_points": 0,
+          "tree_probability": 0.4,
+          "minimum_observations": 2,
+          "paired_sample_pct": 2.5,
+          "apparent_change_pct": 20
+        },
+        {
+          "zone": "North Central",
+          "sample_points": 200,
+          "paired_points": 51,
+          "loss_points": 4,
+          "gain_points": 6,
+          "tree_probability": 0.5,
+          "minimum_observations": 2,
+          "paired_sample_pct": 25.5,
+          "apparent_change_pct": 19.6078431372549
+        },
+        {
+          "zone": "North East",
+          "sample_points": 200,
+          "paired_points": 142,
+          "loss_points": 6,
+          "gain_points": 2,
+          "tree_probability": 0.5,
+          "minimum_observations": 2,
+          "paired_sample_pct": 71,
+          "apparent_change_pct": 5.63380281690141
+        },
+        {
+          "zone": "North West",
+          "sample_points": 200,
+          "paired_points": 89,
+          "loss_points": 3,
+          "gain_points": 5,
+          "tree_probability": 0.5,
+          "minimum_observations": 2,
+          "paired_sample_pct": 44.5,
+          "apparent_change_pct": 8.98876404494382
+        },
+        {
+          "zone": "South East",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.5,
+          "minimum_observations": 2,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South South",
+          "sample_points": 200,
+          "paired_points": 2,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.5,
+          "minimum_observations": 2,
+          "paired_sample_pct": 1,
+          "apparent_change_pct": 0
+        },
+        {
+          "zone": "South West",
+          "sample_points": 200,
+          "paired_points": 5,
+          "loss_points": 1,
+          "gain_points": 0,
+          "tree_probability": 0.5,
+          "minimum_observations": 2,
+          "paired_sample_pct": 2.5,
+          "apparent_change_pct": 20
+        },
+        {
+          "zone": "North Central",
+          "sample_points": 200,
+          "paired_points": 51,
+          "loss_points": 5,
+          "gain_points": 2,
+          "tree_probability": 0.6,
+          "minimum_observations": 2,
+          "paired_sample_pct": 25.5,
+          "apparent_change_pct": 13.7254901960784
+        },
+        {
+          "zone": "North East",
+          "sample_points": 200,
+          "paired_points": 142,
+          "loss_points": 4,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 2,
+          "paired_sample_pct": 71,
+          "apparent_change_pct": 2.8169014084507
+        },
+        {
+          "zone": "North West",
+          "sample_points": 200,
+          "paired_points": 89,
+          "loss_points": 0,
+          "gain_points": 1,
+          "tree_probability": 0.6,
+          "minimum_observations": 2,
+          "paired_sample_pct": 44.5,
+          "apparent_change_pct": 1.12359550561798
+        },
+        {
+          "zone": "South East",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 2,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South South",
+          "sample_points": 200,
+          "paired_points": 2,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 2,
+          "paired_sample_pct": 1,
+          "apparent_change_pct": 0
+        },
+        {
+          "zone": "South West",
+          "sample_points": 200,
+          "paired_points": 5,
+          "loss_points": 1,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 2,
+          "paired_sample_pct": 2.5,
+          "apparent_change_pct": 20
+        },
+        {
+          "zone": "North Central",
+          "sample_points": 200,
+          "paired_points": 19,
+          "loss_points": 1,
+          "gain_points": 5,
+          "tree_probability": 0.4,
+          "minimum_observations": 3,
+          "paired_sample_pct": 9.5,
+          "apparent_change_pct": 31.5789473684211
+        },
+        {
+          "zone": "North East",
+          "sample_points": 200,
+          "paired_points": 109,
+          "loss_points": 4,
+          "gain_points": 6,
+          "tree_probability": 0.4,
+          "minimum_observations": 3,
+          "paired_sample_pct": 54.5,
+          "apparent_change_pct": 9.1743119266055
+        },
+        {
+          "zone": "North West",
+          "sample_points": 200,
+          "paired_points": 46,
+          "loss_points": 1,
+          "gain_points": 4,
+          "tree_probability": 0.4,
+          "minimum_observations": 3,
+          "paired_sample_pct": 23,
+          "apparent_change_pct": 10.8695652173913
+        },
+        {
+          "zone": "South East",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.4,
+          "minimum_observations": 3,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South South",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.4,
+          "minimum_observations": 3,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South West",
+          "sample_points": 200,
+          "paired_points": 2,
+          "loss_points": 1,
+          "gain_points": 0,
+          "tree_probability": 0.4,
+          "minimum_observations": 3,
+          "paired_sample_pct": 1,
+          "apparent_change_pct": 50
+        },
+        {
+          "zone": "North Central",
+          "sample_points": 200,
+          "paired_points": 19,
+          "loss_points": 1,
+          "gain_points": 3,
+          "tree_probability": 0.5,
+          "minimum_observations": 3,
+          "paired_sample_pct": 9.5,
+          "apparent_change_pct": 21.0526315789474
+        },
+        {
+          "zone": "North East",
+          "sample_points": 200,
+          "paired_points": 109,
+          "loss_points": 4,
+          "gain_points": 2,
+          "tree_probability": 0.5,
+          "minimum_observations": 3,
+          "paired_sample_pct": 54.5,
+          "apparent_change_pct": 5.5045871559633
+        },
+        {
+          "zone": "North West",
+          "sample_points": 200,
+          "paired_points": 46,
+          "loss_points": 2,
+          "gain_points": 2,
+          "tree_probability": 0.5,
+          "minimum_observations": 3,
+          "paired_sample_pct": 23,
+          "apparent_change_pct": 8.69565217391304
+        },
+        {
+          "zone": "South East",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.5,
+          "minimum_observations": 3,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South South",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.5,
+          "minimum_observations": 3,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South West",
+          "sample_points": 200,
+          "paired_points": 2,
+          "loss_points": 1,
+          "gain_points": 0,
+          "tree_probability": 0.5,
+          "minimum_observations": 3,
+          "paired_sample_pct": 1,
+          "apparent_change_pct": 50
+        },
+        {
+          "zone": "North Central",
+          "sample_points": 200,
+          "paired_points": 19,
+          "loss_points": 1,
+          "gain_points": 2,
+          "tree_probability": 0.6,
+          "minimum_observations": 3,
+          "paired_sample_pct": 9.5,
+          "apparent_change_pct": 15.7894736842105
+        },
+        {
+          "zone": "North East",
+          "sample_points": 200,
+          "paired_points": 109,
+          "loss_points": 1,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 3,
+          "paired_sample_pct": 54.5,
+          "apparent_change_pct": 0.91743119266055
+        },
+        {
+          "zone": "North West",
+          "sample_points": 200,
+          "paired_points": 46,
+          "loss_points": 0,
+          "gain_points": 1,
+          "tree_probability": 0.6,
+          "minimum_observations": 3,
+          "paired_sample_pct": 23,
+          "apparent_change_pct": 2.17391304347826
+        },
+        {
+          "zone": "South East",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 3,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South South",
+          "sample_points": 200,
+          "paired_points": 0,
+          "loss_points": 0,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 3,
+          "paired_sample_pct": 0,
+          "apparent_change_pct": null
+        },
+        {
+          "zone": "South West",
+          "sample_points": 200,
+          "paired_points": 2,
+          "loss_points": 1,
+          "gain_points": 0,
+          "tree_probability": 0.6,
+          "minimum_observations": 3,
+          "paired_sample_pct": 1,
+          "apparent_change_pct": 50
+        }
+      ],
+      "source": {
+        "label": "Sample-based classification sensitivity",
+        "provider": "Google Earth Engine / R",
+        "files": [
+          "validation/classification_sensitivity_sample.csv"
+        ],
+        "links": [
+          {
+            "label": "Sample-based classification sensitivity",
+            "url": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1"
+          }
+        ],
+        "description": "200 random points per zone, seed 20152025, 10 m sampling, July–October 2015/2025.",
+        "evidenceFlow": [
+          {
+            "title": "Reproduce",
+            "detail": "Run the R scripts described in README.md. Input/output: validation/classification_sensitivity_sample.csv"
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Sample-based classification sensitivity",
+            "definition": "Nine combinations: mean tree probability 0.4/0.5/0.6 and >=1/2/3 predictions. 100*(loss_points+gain_points)/paired_points; null where paired_points=0. Not full-area estimates or independent accuracy validation."
+          }
+        ]
+      }
+    },
+    "dw_hotspots": {
+      "rows": [
+        {
+          "cluster_id": 8,
+          "cells": 42,
+          "common_km2": 4026.59902755437,
+          "tree_before_km2": 348.991467560478,
+          "loss_km2": 343.324862817881,
+          "loss_to_crop_km2": 0.90030337315693,
+          "loss_to_built_km2": 0.0284874618664617,
+          "loss_other_km2": 342.396071982858,
+          "loss_pct_baseline_tree": 98.3762913224764,
+          "crop_overlap_pct": 0.262230753044676,
+          "built_overlap_pct": 0.00829752370179291
+        },
+        {
+          "cluster_id": 19,
+          "cells": 34,
+          "common_km2": 3348.18325924429,
+          "tree_before_km2": 181.051784101494,
+          "loss_km2": 177.973935972766,
+          "loss_to_crop_km2": 0.104219253815245,
+          "loss_to_built_km2": 0.0875331627830747,
+          "loss_other_km2": 177.782183556168,
+          "loss_pct_baseline_tree": 98.3000177855182,
+          "crop_overlap_pct": 0.0585587171770998,
+          "built_overlap_pct": 0.0491831358927012
+        },
+        {
+          "cluster_id": 7,
+          "cells": 4,
+          "common_km2": 397.988579309244,
+          "tree_before_km2": 157.415341801582,
+          "loss_km2": 153.952757605167,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.00737246370408684,
+          "loss_other_km2": 153.945385141463,
+          "loss_pct_baseline_tree": 97.8003515052683,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.00478878314280965
+        },
+        {
+          "cluster_id": 9,
+          "cells": 24,
+          "common_km2": 2389.51543982979,
+          "tree_before_km2": 119.711985160188,
+          "loss_km2": 117.737211675694,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.0665530398182455,
+          "loss_other_km2": 117.670658635876,
+          "loss_pct_baseline_tree": 98.350396176414,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.0565267674263978
+        },
+        {
+          "cluster_id": 30,
+          "cells": 3,
+          "common_km2": 300.223322906677,
+          "tree_before_km2": 60.5060695407558,
+          "loss_km2": 59.9893598970196,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 59.9893598970196,
+          "loss_pct_baseline_tree": 99.1460201469735,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 17,
+          "cells": 4,
+          "common_km2": 398.737406109511,
+          "tree_before_km2": 51.1356900045212,
+          "loss_km2": 50.1401235811718,
+          "loss_to_crop_km2": 0.106374694849364,
+          "loss_to_built_km2": 0.00937229279224993,
+          "loss_other_km2": 50.0243765935302,
+          "loss_pct_baseline_tree": 98.0530889027578,
+          "crop_overlap_pct": 0.212154831802827,
+          "built_overlap_pct": 0.0186922012209985
+        },
+        {
+          "cluster_id": 6,
+          "cells": 3,
+          "common_km2": 300.134360368036,
+          "tree_before_km2": 51.2492727251647,
+          "loss_km2": 49.67533477522,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 49.67533477522,
+          "loss_pct_baseline_tree": 96.9288579793409,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 24,
+          "cells": 2,
+          "common_km2": 200.082651526791,
+          "tree_before_km2": 50.1305707156498,
+          "loss_km2": 49.0146256447188,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 49.0146256447188,
+          "loss_pct_baseline_tree": 97.7739230673018,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 21,
+          "cells": 2,
+          "common_km2": 200.130910856959,
+          "tree_before_km2": 48.7907070977648,
+          "loss_km2": 48.3223353667249,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.000100079501862638,
+          "loss_other_km2": 48.322235287223,
+          "loss_pct_baseline_tree": 99.0400390588694,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.000207108164585011
+        },
+        {
+          "cluster_id": 48,
+          "cells": 1,
+          "common_km2": 99.6344124166034,
+          "tree_before_km2": 34.3214914628363,
+          "loss_km2": 33.054947118969,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 33.054947118969,
+          "loss_pct_baseline_tree": 96.3097630962841,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 31,
+          "cells": 2,
+          "common_km2": 199.920301696839,
+          "tree_before_km2": 32.9157637028184,
+          "loss_km2": 32.4540656889949,
+          "loss_to_crop_km2": 0.420909062682767,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 32.0331566263121,
+          "loss_pct_baseline_tree": 98.5973346449077,
+          "crop_overlap_pct": 1.296937852768,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 28,
+          "cells": 3,
+          "common_km2": 300.234941188581,
+          "tree_before_km2": 31.5899138102468,
+          "loss_km2": 30.9930416338757,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.000200159498490393,
+          "loss_other_km2": 30.9928414743772,
+          "loss_pct_baseline_tree": 98.1105609215765,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.000645820764721643
+        },
+        {
+          "cluster_id": 20,
+          "cells": 3,
+          "common_km2": 299.196780884282,
+          "tree_before_km2": 26.0112411753071,
+          "loss_km2": 25.2931066230667,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 25.2931066230667,
+          "loss_pct_baseline_tree": 97.2391376966582,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 12,
+          "cells": 6,
+          "common_km2": 600.408938673048,
+          "tree_before_km2": 24.0191247133771,
+          "loss_km2": 23.3861761455919,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.00160107071133097,
+          "loss_other_km2": 23.3845750748806,
+          "loss_pct_baseline_tree": 97.3648141831218,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.00684622702473215
+        },
+        {
+          "cluster_id": 27,
+          "cells": 2,
+          "common_km2": 187.608571239063,
+          "tree_before_km2": 20.6594665186447,
+          "loss_km2": 20.1356923277589,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.000199569512915332,
+          "loss_other_km2": 20.1354927582459,
+          "loss_pct_baseline_tree": 97.4647254786894,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.000991123174047546
+        },
+        {
+          "cluster_id": 15,
+          "cells": 3,
+          "common_km2": 300.111097013156,
+          "tree_before_km2": 19.7213426711533,
+          "loss_km2": 19.1471321386562,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 19.1471321386562,
+          "loss_pct_baseline_tree": 97.0883801266888,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 51,
+          "cells": 2,
+          "common_km2": 165.003655603265,
+          "tree_before_km2": 18.2111571178757,
+          "loss_km2": 17.6366198244505,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 9.97178503894247e-05,
+          "loss_other_km2": 17.6365201066001,
+          "loss_pct_baseline_tree": 96.8451357060596,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.000565402278792568
+        },
+        {
+          "cluster_id": 3,
+          "cells": 1,
+          "common_km2": 54.4263307551737,
+          "tree_before_km2": 16.3464657048462,
+          "loss_km2": 15.7818051038994,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 15.7818051038994,
+          "loss_pct_baseline_tree": 96.5456716384912,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 56,
+          "cells": 1,
+          "common_km2": 99.8188311458871,
+          "tree_before_km2": 15.0842916904294,
+          "loss_km2": 14.5275133190225,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 14.5275133190225,
+          "loss_pct_baseline_tree": 96.3088862053755,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 11,
+          "cells": 1,
+          "common_km2": 100.020525256645,
+          "tree_before_km2": 14.525807637081,
+          "loss_km2": 14.0362029095413,
+          "loss_to_crop_km2": 0.0711133551085368,
+          "loss_to_built_km2": 0.0023005426992313,
+          "loss_other_km2": 13.9627890117335,
+          "loss_pct_baseline_tree": 96.6294147645887,
+          "crop_overlap_pct": 0.506642398708816,
+          "built_overlap_pct": 0.0163900644216783
+        },
+        {
+          "cluster_id": 29,
+          "cells": 4,
+          "common_km2": 400.248022707965,
+          "tree_before_km2": 14.321028516657,
+          "loss_km2": 14.0288497872971,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.00330196264985715,
+          "loss_other_km2": 14.0255478246472,
+          "loss_pct_baseline_tree": 97.9597922801422,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.0235369449379025
+        },
+        {
+          "cluster_id": 59,
+          "cells": 4,
+          "common_km2": 400.118293633634,
+          "tree_before_km2": 12.0429295777431,
+          "loss_km2": 11.7503502804466,
+          "loss_to_crop_km2": 0.00490145674120867,
+          "loss_to_built_km2": 0.00520115419931244,
+          "loss_other_km2": 11.7402476695061,
+          "loss_pct_baseline_tree": 97.570530530734,
+          "crop_overlap_pct": 0.0417132819381993,
+          "built_overlap_pct": 0.0442638225684857
+        },
+        {
+          "cluster_id": 25,
+          "cells": 1,
+          "common_km2": 89.4990049107681,
+          "tree_before_km2": 12.103224035248,
+          "loss_km2": 11.6601386295198,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.0103308166944771,
+          "loss_other_km2": 11.6498078128254,
+          "loss_pct_baseline_tree": 96.3391125832439,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.0885994328431284
+        },
+        {
+          "cluster_id": 38,
+          "cells": 5,
+          "common_km2": 500.393385683077,
+          "tree_before_km2": 10.4218055183665,
+          "loss_km2": 10.365961732532,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 10.365961732532,
+          "loss_pct_baseline_tree": 99.4641639998364,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 23,
+          "cells": 1,
+          "common_km2": 100.052717098253,
+          "tree_before_km2": 10.6667152754308,
+          "loss_km2": 10.3156298495815,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 10.3156298495815,
+          "loss_pct_baseline_tree": 96.7085891318579,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 45,
+          "cells": 1,
+          "common_km2": 99.7684598165506,
+          "tree_before_km2": 9.78244443724543,
+          "loss_km2": 9.50168755045161,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.00099767778738169,
+          "loss_other_km2": 9.50068987266422,
+          "loss_pct_baseline_tree": 97.1299925228824,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.0105000062576702
+        },
+        {
+          "cluster_id": 40,
+          "cells": 3,
+          "common_km2": 300.061097362865,
+          "tree_before_km2": 9.65431726541283,
+          "loss_km2": 9.45407835180958,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.000400095770601183,
+          "loss_other_km2": 9.45367825603898,
+          "loss_pct_baseline_tree": 97.9259132665899,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.00423199127099049
+        },
+        {
+          "cluster_id": 54,
+          "cells": 2,
+          "common_km2": 198.505689067046,
+          "tree_before_km2": 6.02873818625085,
+          "loss_km2": 6.00166288549372,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.189434925974638,
+          "loss_other_km2": 5.81222795951908,
+          "loss_pct_baseline_tree": 99.5508960594958,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 3.15637398482528
+        },
+        {
+          "cluster_id": 33,
+          "cells": 1,
+          "common_km2": 99.7683412722105,
+          "tree_before_km2": 6.10789233302776,
+          "loss_km2": 5.95434536482456,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 5.95434536482456,
+          "loss_pct_baseline_tree": 97.4860891477586,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 32,
+          "cells": 1,
+          "common_km2": 88.0383900036858,
+          "tree_before_km2": 6.00930012616936,
+          "loss_km2": 5.80559468326737,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 5.80559468326737,
+          "loss_pct_baseline_tree": 96.6101636026649,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 41,
+          "cells": 2,
+          "common_km2": 199.886238235908,
+          "tree_before_km2": 5.60039844028267,
+          "loss_km2": 5.50743209108383,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 5.50743209108383,
+          "loss_pct_baseline_tree": 98.3400047301966,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 4,
+          "cells": 1,
+          "common_km2": 69.0468611227334,
+          "tree_before_km2": 5.5122545575432,
+          "loss_km2": 5.41659063683619,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.0103639734807075,
+          "loss_other_km2": 5.40622666335548,
+          "loss_pct_baseline_tree": 98.2645228062608,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.191337580695614
+        },
+        {
+          "cluster_id": 42,
+          "cells": 2,
+          "common_km2": 198.826079866871,
+          "tree_before_km2": 5.41241399944556,
+          "loss_km2": 5.37184376099322,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 5.37184376099322,
+          "loss_pct_baseline_tree": 99.2504224832671,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 35,
+          "cells": 2,
+          "common_km2": 200.107179950253,
+          "tree_before_km2": 5.23851314839894,
+          "loss_km2": 5.19518596244789,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 5.19518596244789,
+          "loss_pct_baseline_tree": 99.1729106194131,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 16,
+          "cells": 1,
+          "common_km2": 94.2998660526428,
+          "tree_before_km2": 4.84947550660581,
+          "loss_km2": 4.72593442699144,
+          "loss_to_crop_km2": 0.00866113381198374,
+          "loss_to_built_km2": 0.00268804543156875,
+          "loss_other_km2": 4.71458524774789,
+          "loss_pct_baseline_tree": 97.4524857493128,
+          "crop_overlap_pct": 0.183268175760481,
+          "built_overlap_pct": 0.0568786019589353
+        },
+        {
+          "cluster_id": 61,
+          "cells": 1,
+          "common_km2": 99.4698723258575,
+          "tree_before_km2": 4.72083293345814,
+          "loss_km2": 4.66639510764536,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 4.66639510764536,
+          "loss_pct_baseline_tree": 98.8468597262368,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 2,
+          "cells": 1,
+          "common_km2": 62.5116368430463,
+          "tree_before_km2": 4.42088370254351,
+          "loss_km2": 4.33702827133675,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.00807723719481146,
+          "loss_other_km2": 4.32895103414194,
+          "loss_pct_baseline_tree": 98.1031975313327,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.186238979537985
+        },
+        {
+          "cluster_id": 18,
+          "cells": 2,
+          "common_km2": 112.053189448103,
+          "tree_before_km2": 3.97814936964278,
+          "loss_km2": 3.9399239409031,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.00400266172800911,
+          "loss_other_km2": 3.93592127917509,
+          "loss_pct_baseline_tree": 99.0391152973949,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.101592360361445
+        },
+        {
+          "cluster_id": 37,
+          "cells": 2,
+          "common_km2": 199.581162466079,
+          "tree_before_km2": 3.96344627440829,
+          "loss_km2": 3.86225452018096,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 3.86225452018096,
+          "loss_pct_baseline_tree": 97.4468745828418,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 22,
+          "cells": 1,
+          "common_km2": 100.07996602913,
+          "tree_before_km2": 3.99408923726878,
+          "loss_km2": 3.84957367734751,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 3.84957367734751,
+          "loss_pct_baseline_tree": 96.3817643688879,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 34,
+          "cells": 1,
+          "common_km2": 100.072533410465,
+          "tree_before_km2": 3.66677272363449,
+          "loss_km2": 3.6339489344391,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 3.6339489344391,
+          "loss_pct_baseline_tree": 99.104831641628,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 58,
+          "cells": 1,
+          "common_km2": 93.5724000211291,
+          "tree_before_km2": 3.33297840129509,
+          "loss_km2": 3.25779345413886,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.00219669070793315,
+          "loss_other_km2": 3.25559676343092,
+          "loss_pct_baseline_tree": 97.7442113898183,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.0674287900340145
+        },
+        {
+          "cluster_id": 26,
+          "cells": 1,
+          "common_km2": 70.0194454989294,
+          "tree_before_km2": 3.11787308104386,
+          "loss_km2": 3.09159163160212,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 3.09159163160212,
+          "loss_pct_baseline_tree": 99.1570712226381,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 1,
+          "cells": 1,
+          "common_km2": 59.7450976714827,
+          "tree_before_km2": 2.89043509000476,
+          "loss_km2": 2.88693396482995,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 2.88693396482995,
+          "loss_pct_baseline_tree": 99.8788720360158,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 53,
+          "cells": 2,
+          "common_km2": 199.920325694773,
+          "tree_before_km2": 2.90454220285028,
+          "loss_km2": 2.86755846848973,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 2.86755846848973,
+          "loss_pct_baseline_tree": 98.7266931661639,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 10,
+          "cells": 1,
+          "common_km2": 100.075010297063,
+          "tree_before_km2": 2.78527468765969,
+          "loss_km2": 2.69640803305811,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 2.69640803305811,
+          "loss_pct_baseline_tree": 96.8094114740167,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 50,
+          "cells": 1,
+          "common_km2": 99.9820734716215,
+          "tree_before_km2": 2.36074214808468,
+          "loss_km2": 2.33724508657178,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 2.33724508657178,
+          "loss_pct_baseline_tree": 99.0046747997462,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 52,
+          "cells": 1,
+          "common_km2": 85.8135343024915,
+          "tree_before_km2": 1.95960051147995,
+          "loss_km2": 1.90156874703098,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 1.90156874703098,
+          "loss_pct_baseline_tree": 97.0385920952254,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 44,
+          "cells": 1,
+          "common_km2": 100.070383397104,
+          "tree_before_km2": 1.94675786901644,
+          "loss_km2": 1.89551948334702,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 1.89551948334702,
+          "loss_pct_baseline_tree": 97.3680144570157,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 36,
+          "cells": 1,
+          "common_km2": 66.593678057942,
+          "tree_before_km2": 1.78790036038551,
+          "loss_km2": 1.76199515670964,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 1.76199515670964,
+          "loss_pct_baseline_tree": 98.5510823617552,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 57,
+          "cells": 1,
+          "common_km2": 94.7818444368531,
+          "tree_before_km2": 1.69505347744416,
+          "loss_km2": 1.68015078690951,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 1.68015078690951,
+          "loss_pct_baseline_tree": 99.1208129576463,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 5,
+          "cells": 1,
+          "common_km2": 32.7518751038318,
+          "tree_before_km2": 1.69105333076004,
+          "loss_km2": 1.65391195195116,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.00388323656807187,
+          "loss_other_km2": 1.65002871538309,
+          "loss_pct_baseline_tree": 97.8036541998241,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.234791009490604
+        },
+        {
+          "cluster_id": 60,
+          "cells": 1,
+          "common_km2": 99.3208695033827,
+          "tree_before_km2": 1.63389690683107,
+          "loss_km2": 1.63389690683107,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 1.63389690683107,
+          "loss_pct_baseline_tree": 100,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 14,
+          "cells": 1,
+          "common_km2": 100.07253291447,
+          "tree_before_km2": 1.4705686874513,
+          "loss_km2": 1.43314142748568,
+          "loss_to_crop_km2": 0.000600438783294521,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 1.43254098870239,
+          "loss_pct_baseline_tree": 97.4549124916775,
+          "crop_overlap_pct": 0.0418966873595956,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 47,
+          "cells": 1,
+          "common_km2": 99.7150796806629,
+          "tree_before_km2": 1.44662679264729,
+          "loss_km2": 1.39845604843867,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 1.39845604843867,
+          "loss_pct_baseline_tree": 96.6701332746321,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 49,
+          "cells": 1,
+          "common_km2": 100.034891522053,
+          "tree_before_km2": 1.37887899106863,
+          "loss_km2": 1.36177290032356,
+          "loss_to_crop_km2": 0.00110037739068502,
+          "loss_to_built_km2": 0.00280097344511887,
+          "loss_other_km2": 1.35787154948775,
+          "loss_pct_baseline_tree": 98.7594204527102,
+          "crop_overlap_pct": 0.0808047649078327,
+          "built_overlap_pct": 0.205685797129122
+        },
+        {
+          "cluster_id": 46,
+          "cells": 1,
+          "common_km2": 100.061717636909,
+          "tree_before_km2": 1.35789210071619,
+          "loss_km2": 1.31255656309316,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.000100078636023682,
+          "loss_other_km2": 1.31245648445714,
+          "loss_pct_baseline_tree": 96.6613298951278,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.00762471034298414
+        },
+        {
+          "cluster_id": 55,
+          "cells": 1,
+          "common_km2": 100.06213185082,
+          "tree_before_km2": 1.1781338969231,
+          "loss_km2": 1.17263055968215,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.0103063004280557,
+          "loss_other_km2": 1.16232425925409,
+          "loss_pct_baseline_tree": 99.5328767591421,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0.878904301355519
+        },
+        {
+          "cluster_id": 43,
+          "cells": 1,
+          "common_km2": 99.475437168825,
+          "tree_before_km2": 1.18179016742943,
+          "loss_km2": 1.14179929003149,
+          "loss_to_crop_km2": 0.00517289269191678,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 1.13662639733957,
+          "loss_pct_baseline_tree": 96.6160763137058,
+          "crop_overlap_pct": 0.453047460887293,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 39,
+          "cells": 1,
+          "common_km2": 100.079469803117,
+          "tree_before_km2": 1.0308190492724,
+          "loss_km2": 1.00810100626404,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0,
+          "loss_other_km2": 1.00810100626404,
+          "loss_pct_baseline_tree": 97.7961172696227,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 0
+        },
+        {
+          "cluster_id": 13,
+          "cells": 1,
+          "common_km2": 99.5461980218752,
+          "tree_before_km2": 1.03765887141344,
+          "loss_km2": 1.00162273918249,
+          "loss_to_crop_km2": 0,
+          "loss_to_built_km2": 0.0345408830762608,
+          "loss_other_km2": 0.967081856106233,
+          "loss_pct_baseline_tree": 96.5271696485512,
+          "crop_overlap_pct": 0,
+          "built_overlap_pct": 3.44849230404378
+        }
+      ],
+      "source": {
+        "label": "Candidate high-loss cell groups",
+        "provider": "Google Earth Engine / R",
+        "files": [
+          "data/dynamic_world/candidate_cluster_summary.csv"
+        ],
+        "links": [
+          {
+            "label": "Candidate high-loss cell groups",
+            "url": "https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1"
+          }
+        ],
+        "description": "10 km grid; groups use integer gx/gy queen adjacency. Singletons are in the table but only groups >=2 cells are outlined in the figure.",
+        "evidenceFlow": [
+          {
+            "title": "Reproduce",
+            "detail": "Run the R scripts described in README.md. Input/output: data/dynamic_world/candidate_cluster_summary.csv"
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "Candidate high-loss cell groups",
+            "definition": "Eligible cells: >=50% paired coverage and >=1 km² baseline tree area. High loss: top decile of positive loss / baseline-tree area. Not a significance test."
+          }
+        ]
+      }
+    },
+    "hansen_states": {
+      "rows": [
+        {
+          "region": "Abia",
+          "total_loss_ha": 11267.4031854329,
+          "total_loss_km2": 112.67403185433,
+          "region_area_ha": 472400.782114075,
+          "loss_pct_of_state_area": 2.38513643754131
+        },
+        {
+          "region": "Abuja",
+          "total_loss_ha": 4241.76334779882,
+          "total_loss_km2": 42.4176334779882,
+          "region_area_ha": 735137.920501916,
+          "loss_pct_of_state_area": 0.577002386831405
+        },
+        {
+          "region": "Adamawa",
+          "total_loss_ha": 1122.81217831014,
+          "total_loss_km2": 11.2281217831014,
+          "region_area_ha": 3439190.39491488,
+          "loss_pct_of_state_area": 0.0326475725208556
+        },
+        {
+          "region": "Akwa Ibom",
+          "total_loss_ha": 5990.44672751325,
+          "total_loss_km2": 59.9044672751325,
+          "region_area_ha": 661127.83704434,
+          "loss_pct_of_state_area": 0.906095068435529
+        },
+        {
+          "region": "Anambra",
+          "total_loss_ha": 1377.50473031279,
+          "total_loss_km2": 13.7750473031279,
+          "region_area_ha": 459024.387567736,
+          "loss_pct_of_state_area": 0.300094018448969
+        },
+        {
+          "region": "Bauchi",
+          "total_loss_ha": 3.02914793789387,
+          "total_loss_km2": 0.0302914793789387,
+          "region_area_ha": 4906041.44604609,
+          "loss_pct_of_state_area": 6.17432194816687e-05
+        },
+        {
+          "region": "Bayelsa",
+          "total_loss_ha": 19108.5801215279,
+          "total_loss_km2": 191.085801215279,
+          "region_area_ha": 999150.739218566,
+          "loss_pct_of_state_area": 1.91248220828748
+        },
+        {
+          "region": "Benue",
+          "total_loss_ha": 5419.82381862107,
+          "total_loss_km2": 54.1982381862107,
+          "region_area_ha": 3132305.6374434,
+          "loss_pct_of_state_area": 0.173029852318139
+        },
+        {
+          "region": "Borno",
+          "total_loss_ha": 0,
+          "total_loss_km2": 0,
+          "region_area_ha": 7159629.00335145,
+          "loss_pct_of_state_area": 0
+        },
+        {
+          "region": "Cross River",
+          "total_loss_ha": 115613.642888677,
+          "total_loss_km2": 1156.13642888677,
+          "region_area_ha": 2101010.92083415,
+          "loss_pct_of_state_area": 5.50276258643985
+        },
+        {
+          "region": "Delta",
+          "total_loss_ha": 60426.5924750931,
+          "total_loss_km2": 604.265924750931,
+          "region_area_ha": 1677441.63021817,
+          "loss_pct_of_state_area": 3.60230671437634
+        },
+        {
+          "region": "Ebonyi",
+          "total_loss_ha": 1377.99205183972,
+          "total_loss_km2": 13.7799205183972,
+          "region_area_ha": 618882.45660663,
+          "loss_pct_of_state_area": 0.222658121446087
+        },
+        {
+          "region": "Edo",
+          "total_loss_ha": 235758.267537374,
+          "total_loss_km2": 2357.58267537374,
+          "region_area_ha": 1958930.06044142,
+          "loss_pct_of_state_area": 12.0350528228787
+        },
+        {
+          "region": "Ekiti",
+          "total_loss_ha": 70987.5471286257,
+          "total_loss_km2": 709.875471286257,
+          "region_area_ha": 523661.463249768,
+          "loss_pct_of_state_area": 13.5559998415937
+        },
+        {
+          "region": "Enugu",
+          "total_loss_ha": 1939.44025191,
+          "total_loss_km2": 19.3944025191,
+          "region_area_ha": 770255.106398155,
+          "loss_pct_of_state_area": 0.251791936956985
+        },
+        {
+          "region": "Gombe",
+          "total_loss_ha": 0,
+          "total_loss_km2": 0,
+          "region_area_ha": 1819043.77071675,
+          "loss_pct_of_state_area": 0
+        },
+        {
+          "region": "Imo",
+          "total_loss_ha": 5293.50944304661,
+          "total_loss_km2": 52.9350944304661,
+          "region_area_ha": 531019.432259879,
+          "loss_pct_of_state_area": 0.996857953110836
+        },
+        {
+          "region": "Jigawa",
+          "total_loss_ha": 0,
+          "total_loss_km2": 0,
+          "region_area_ha": 2400109.85675007,
+          "loss_pct_of_state_area": 0
+        },
+        {
+          "region": "Kaduna",
+          "total_loss_ha": 481.873288435671,
+          "total_loss_km2": 4.81873288435671,
+          "region_area_ha": 4431499.35796148,
+          "loss_pct_of_state_area": 0.01087382056301
+        },
+        {
+          "region": "Kano",
+          "total_loss_ha": 0,
+          "total_loss_km2": 0,
+          "region_area_ha": 2008312.77580115,
+          "loss_pct_of_state_area": 0
+        },
+        {
+          "region": "Katsina",
+          "total_loss_ha": 0,
+          "total_loss_km2": 0,
+          "region_area_ha": 2370507.10230336,
+          "loss_pct_of_state_area": 0
+        },
+        {
+          "region": "Kebbi",
+          "total_loss_ha": 0.0755033120512962,
+          "total_loss_km2": 0.000755033120512962,
+          "region_area_ha": 3583300.60963175,
+          "loss_pct_of_state_area": 2.10708841586851e-06
+        },
+        {
+          "region": "Kogi",
+          "total_loss_ha": 63616.4099857451,
+          "total_loss_km2": 636.164099857451,
+          "region_area_ha": 2894176.25882816,
+          "loss_pct_of_state_area": 2.19808347165086
+        },
+        {
+          "region": "Kwara",
+          "total_loss_ha": 30976.5241943151,
+          "total_loss_km2": 309.765241943151,
+          "region_area_ha": 3542191.7260313,
+          "loss_pct_of_state_area": 0.874501624705148
+        },
+        {
+          "region": "Lagos",
+          "total_loss_ha": 14013.7366066592,
+          "total_loss_km2": 140.137366066591,
+          "region_area_ha": 378464.51372532,
+          "loss_pct_of_state_area": 3.70278747371014
+        },
+        {
+          "region": "Nassarawa",
+          "total_loss_ha": 1192.13029083544,
+          "total_loss_km2": 11.9213029083544,
+          "region_area_ha": 2632663.59782783,
+          "loss_pct_of_state_area": 0.0452822871793819
+        },
+        {
+          "region": "Niger",
+          "total_loss_ha": 879.851896077394,
+          "total_loss_km2": 8.79851896077395,
+          "region_area_ha": 7101826.49066499,
+          "loss_pct_of_state_area": 0.0123890931049064
+        },
+        {
+          "region": "Ogun",
+          "total_loss_ha": 86172.806606367,
+          "total_loss_km2": 861.72806606367,
+          "region_area_ha": 1609440.35119956,
+          "loss_pct_of_state_area": 5.35420940217759
+        },
+        {
+          "region": "Ondo",
+          "total_loss_ha": 105112.000243858,
+          "total_loss_km2": 1051.12000243858,
+          "region_area_ha": 1446942.04804817,
+          "loss_pct_of_state_area": 7.26442364334125
+        },
+        {
+          "region": "Osun",
+          "total_loss_ha": 58263.6025511783,
+          "total_loss_km2": 582.636025511783,
+          "region_area_ha": 918991.155650011,
+          "loss_pct_of_state_area": 6.33995247864686
+        },
+        {
+          "region": "Oyo",
+          "total_loss_ha": 40035.0544023863,
+          "total_loss_km2": 400.350544023864,
+          "region_area_ha": 2739865.98521049,
+          "loss_pct_of_state_area": 1.46120484061963
+        },
+        {
+          "region": "Plateau",
+          "total_loss_ha": 311.031510217564,
+          "total_loss_km2": 3.11031510217564,
+          "region_area_ha": 2757969.91410721,
+          "loss_pct_of_state_area": 0.0112775526892667
+        },
+        {
+          "region": "Rivers",
+          "total_loss_ha": 25116.5453321711,
+          "total_loss_km2": 251.165453321711,
+          "region_area_ha": 872687.76219869,
+          "loss_pct_of_state_area": 2.87806778324601
+        },
+        {
+          "region": "Sokoto",
+          "total_loss_ha": 0,
+          "total_loss_km2": 0,
+          "region_area_ha": 3191773.89361221,
+          "loss_pct_of_state_area": 0
+        },
+        {
+          "region": "Taraba",
+          "total_loss_ha": 137555.070891753,
+          "total_loss_km2": 1375.55070891753,
+          "region_area_ha": 6043060.96907769,
+          "loss_pct_of_state_area": 2.2762482721194
+        },
+        {
+          "region": "Yobe",
+          "total_loss_ha": 0,
+          "total_loss_km2": 0,
+          "region_area_ha": 4557281.87982658,
+          "loss_pct_of_state_area": 0
+        },
+        {
+          "region": "Zamfara",
+          "total_loss_ha": 0,
+          "total_loss_km2": 0,
+          "region_area_ha": 3452461.00628026,
+          "loss_pct_of_state_area": 0
+        }
+      ],
+      "source": {
+        "label": "State and FCT mapped gross loss",
+        "provider": "Hansen / FAO GAUL 2015",
+        "files": [
+          "data/hansen/state_totals_and_size_adjustment.csv"
+        ],
+        "links": [
+          {
+            "label": "State and FCT mapped gross loss",
+            "url": "https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2025_v1_13"
+          }
+        ],
+        "description": "36 states and FCT; fixed GAUL 2015 boundary vintage; 2015–2025 gross loss under the 30% canopy filter.",
+        "evidenceFlow": [
+          {
+            "title": "Reproduce",
+            "detail": "Run the R scripts described in README.md. Input/output: data/hansen/state_totals_and_size_adjustment.csv"
+          }
+        ],
+        "metricDefinitions": [
+          {
+            "label": "State and FCT mapped gross loss",
+            "definition": "Loss / state area (%) =100*total_loss_ha/region_area_ha. State-level concentrations, not statistically significant fine-scale hotspots."
+          }
+        ]
+      }
+    }
+  },
+  "id": "dashboard:07b092fe-84c6-40e0-990a-94242370f78b",
+  "tabs": [
+    {
+      "id": "dashboard",
+      "label": "Satellite comparison"
+    },
+    {
+      "id": "hansen",
+      "label": "Annual gross loss"
+    },
+    {
+      "id": "coverage",
+      "label": "Coverage & sensitivity"
+    }
+  ]
+}

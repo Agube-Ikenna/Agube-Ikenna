@@ -1,0 +1,9 @@
+dashboard/node_modules/
+dashboard/dist/
+data/hansen_source/
+figures/hansen/cache/
+.Rhistory
+.RData
+.Rproj.user/
+*.part
+dashboard/.data-app-offline/

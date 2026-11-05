@@ -1,0 +1,1 @@
+Run R from the project directory. The all-in-one script defaults to results mode and uses the committed exports without Earth Engine. Switch MODE to maps for refreshed satellite previews, exports to submit new jobs, or status to check jobs. Earth Engine credentials are never included. Set EE_PROJECT to your enabled project.

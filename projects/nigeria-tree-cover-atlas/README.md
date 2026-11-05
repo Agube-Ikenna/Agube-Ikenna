@@ -1,67 +1,109 @@
 # Nigeria Tree-Cover Change Atlas | 2015–2025
 
-**A remote-sensing and R analysis of Nigeria's six geopolitical zones.**
+Satellite comparison, annual mapped gross loss and spatial concentrations across Nigeria's six geopolitical zones. R scripts, PNG figures, processed CSV/GeoJSON exports and a source-backed interactive dashboard are included.
 
-## What changed, and where?
+## Explore the figures
 
-This project combines satellite land-cover classification, spatial grids and annual forest-loss records to explore changes across Nigeria.
+### 1. Satellite comparison
 
-### Findings from the generated figures
+![2015 and 2025 satellite comparison](figures/dynamic_world/01_satellite_comparison.png)
 
-| Measure | Finding |
-|---|---|
-| Highest annual mapped loss (Hansen/UMD) | **2017**, approximately **1,700 km²** in the supplied chart |
-| Highest apparent endpoint change among reported zones (Dynamic World) | **South West: 23.4%** of common-observed area |
-| Second-highest apparent endpoint change | **South South: 21.5%** of common-observed area |
-| Other endpoint-change rates | North Central **19.9%**, North West **8.7%**, North East **8.4%** |
-| South East endpoint comparison | No paired data in the supplied zone figure |
-| Candidate hotspot areas | Spatial clusters visible in parts of northern and central Nigeria; exploratory, not statistically confirmed |
+July–October endpoint composites show tree-class overlays and observation gaps. They are visual context, not a national loss estimate. Green is tree class, not necessarily intact natural forest; grey indicates insufficient paired predictions and white indicates masked RGB pixels.
 
-**Interpretation:** The satellite-derived patterns are geographically uneven. Agriculture, development and other land-use pressures are plausible explanations to investigate, **not causes demonstrated by these maps**.
+### 2. Which zone experienced the greatest mapped loss?
 
-## How it was done
+![Regional mapped-loss rankings](figures/hansen/01_regional_ranking.png)
 
-- **R:** `sf`, `dplyr`, `ggplot2`, `rgee`, `reticulate`, `readr`, `tidyr`, `scales`.
-- **Google Earth Engine:** Satellite data processing and cloud-based area calculations.
-- **Dynamic World (Sentinel-2):** July–October 2015 and 2025 tree-probability composites, threshold **0.50**, at least **2 observations** at each endpoint, using a common valid footprint.
-- **Landsat 8 Collection 2:** Cloud-masked RGB imagery for side-by-side visual context.
-- **FAO GAUL 2015:** State boundaries aggregated into six geopolitical zones.
-- **10 km grid:** Exploratory loss hotspots defined as the top 10% of positive eligible loss rates, with at least 50% common coverage and 1 km² baseline tree-class area.
-- **Hansen Global Forest Change v1.13:** Separate annual **gross** tree-cover-loss series for 2015–2025, restricted to areas with at least 30% canopy in 2000.
+Under the Hansen year-2000 canopy ≥30% definition, **South South** has the largest 2015–2025 mapped gross loss: **4,619.2 km²**, or **5.59% of its geographic area**. South West follows at **3,743.4 km²** and **4.91%**. Size adjustment changes some other ranks: South East ranks above both northern central/eastern zones by geographic percentage.
 
-The Dynamic World endpoint comparison and Hansen annual-loss series are **different measurements** and should not be added together or interpreted as interchangeable.
+### 3. When did the greatest losses occur?
 
-### Calculation
+![Annual mapped gross loss](figures/hansen/02_annual_trend.png)
 
-```text
-Apparent endpoint change (%) =
-  100 × (apparent loss area + apparent gain area)
-      / area with adequate observations at both endpoints
+**2017** is the peak calendar year: **1,711.7 km²** of mapped gross loss. This sums eleven annual observations, 2015 through 2025 inclusive. The dashed curve is a descriptive three-year mean, not an uncertainty interval.
+
+### 4. Where are loss concentrations?
+
+![State and FCT mapped-loss concentrations](figures/hansen/03_state_loss_concentrations.png)
+
+The state map reports cumulative mapped loss divided by full geographic state/FCT area. It is an exploratory concentration map, not a formal hotspot-significance test. [Absolute and relative state values](data/hansen/state_totals_and_size_adjustment.csv) accompany it.
+
+![Candidate endpoint loss clusters](figures/dynamic_world/03_candidate_hotspots.png)
+
+The separate Dynamic World grid map outlines adjacent high-loss cells within an eligible observation footprint. It does not support conclusions for excluded cells or prove agricultural/urban causes.
+
+## Dashboard
+
+[Download the portable dashboard HTML](dashboard-preview/Nigeria_Tree_Cover_Atlas.html) using GitHub's **Download raw file**, then open it in your browser. GitHub's code viewer does not execute HTML. The file includes its reviewed data and runs offline; it is not a public hosted website.
+
+Three views keep the measurements separate:
+
+- **Satellite comparison:** 2015/2025 imagery, interactive zone map with pointer/keyboard values, endpoint change and candidate grid clusters.
+- **Annual gross loss:** national annual trend, absolute and size-adjusted regional rankings, state/FCT concentrations and searchable measurements.
+- **Coverage & sensitivity:** paired observation coverage, a zone selector, threshold-sensitivity lines and the exact sampled counts.
+
+Dashboard source is in [dashboard](dashboard/); reviewed rows and provenance are in `dashboard/src/data.json`. The compiled offline file is a distribution artifact. The dashboard uses the supplied Data app runtime, keeping source inspection, chart editing, themes, export and presentation controls.
+
+## Coverage changes the interpretation
+
+| Zone | Paired footprint / zone area |
+|---|---:|
+| North East | 69.36% |
+| North West | 43.43% |
+| North Central | 21.66% |
+| South West | 2.41% |
+| South South | 0.28% |
+| South East | 0.00% |
+
+Apparent endpoint change is `100 × (loss + gain) / common-observed area`. South West's **23.42%** and South South's **21.50%** refer only to their small observed footprints. They do **not** establish which entire zone changed most. South East has no estimable endpoint rate; zero exported area there means no paired footprint, not proof of no change.
+
+The 1,200-point sensitivity audit tests nine settings. At the main settings, paired sample sizes are only five points in South West, two in South South and zero in South East. Full-area threshold robustness and independent accuracy validation remain open. [Validation and limitations](validation/README.md).
+
+Hansen gross loss and Dynamic World endpoint loss/gain are different measurements. **Do not add them together or treat either as net permanent deforestation.** Geographic-area adjustment controls size, not baseline tree cover.
+
+## Run in R
+
+Open `NigeriaTreeCoverAtlas.Rproj` in RStudio. The project directory must be your working directory. Run:
+
+```r
+source('R/Install_Packages.R')  # once; restart R if prompted
+source('R/Nigeria_Tree_Cover_ALL_IN_ONE.R')  # defaults to results; uses saved exports
+source('R/Audit_Coverage_And_Sensitivity.R') # uses saved point sample offline
+source('R/Validate_Exports.R')
 ```
 
-The percentage describes change in the *observed footprint*, not the percentage of all Nigerian forest lost. Spatial coverage differs by zone. Hotspot clusters are exploratory; missing or excluded cells do not indicate no change.
+The **complete self-contained Dynamic World script** has four modes. At its beginning, set `MODE <- "maps"` for satellite previews, `"exports"` for new Earth Engine jobs, `"status"` for job status or `"results"` for saved-data plots. Run the entire script. Results mode needs no Earth Engine connection. Cloud modes require your Earth Engine account and an enabled project; optionally set `Sys.setenv(EE_PROJECT='your-project-id')`. No credentials are stored here.
 
-## Project files
+For a fresh local Hansen calculation:
 
-- [Annual-loss analysis and Earth Engine dashboard](earth-engine/forest_loss_story_2015_2025.js)
-- [Satellite comparison script](earth-engine/visual_comparison.js)
+```r
+source('R/Hansen_Annual_Loss_2015_2025.R')
+```
 
-The R workflow used for the displayed figures has been shared in the project conversation, but **is not yet committed here**. Likewise, the exported CSV/GeoJSON data and final PNG figures have **not yet been uploaded to this repository**. The results above are transcribed from the figures shared by the project author, not independently recomputed in this repository.
+This self-contained script downloads twelve official raster tiles (~1.4 GB) if absent, builds VRT mosaics and calculates annual cell-area totals in R. Allow several GB of free disk/R working space and processing time. Set `HANSEN_DATA_ROOT` to reuse a folder with `data/raw/hansen` and `data/derived` before running. Raw rasters and machine-specific VRTs are excluded from Git. State geometry is supplied, so the normal local workflow needs no Earth Engine job.
 
-## Data sources
+Both scripts copy their processed tables to `data`. After both analyses, run `source('R/Build_Dashboard_Data.R')`. See [dashboard build instructions](dashboard/README_ATLAS.md).
 
-- [Dynamic World](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1)
-- [Landsat 8 Surface Reflectance](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2)
-- [Hansen Global Forest Change v1.13](https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2025_v1_13)
-- [FAO GAUL boundaries](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_2015_level1)
+## Files and sources
 
-## Next steps
+- [R scripts](R/) — complete endpoint and annual-loss workflows, package setup, audit, validation and dashboard-data update.
+- [Processed data](data/) — zone, grid, state and annual tables; corrected WGS84 grid and hotspot GeoJSONs.
+- [Figures](figures/) — separate PNG outputs with legends.
+- [Validation](validation/) — coverage, sensitivity sample/scenarios, reconciliation and checksums.
+- [Earth Engine scripts](earth-engine/) — retained original cloud dashboard and satellite scripts.
+- [Sources, licenses and coordinate-system notes](DATA_SOURCES.md).
 
-- [x] Build satellite comparison and annual-loss analysis scripts
-- [x] Generate initial R maps and interpret the results
-- [ ] Commit the complete self-contained R script
-- [ ] Upload generated PNG figures and processed CSV/GeoJSON exports
-- [ ] Audit observation coverage and validate classification sensitivity
-- [ ] Build a visual-first project dashboard
+Primary sources: [Dynamic World](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_DYNAMICWORLD_V1), [Hansen GFC v1.13](https://developers.google.com/earth-engine/datasets/catalog/UMD_hansen_global_forest_change_2025_v1_13), [Landsat 8](https://developers.google.com/earth-engine/datasets/catalog/LANDSAT_LC08_C02_T1_L2), and [FAO GAUL 2015](https://developers.google.com/earth-engine/datasets/catalog/FAO_GAUL_2015_level1). Boundary data retain FAO's separate noncommercial terms.
 
-**Status:** Exploratory analysis with initial figures; validation and reproducible result uploads are pending.
+## Delivery status
+
+- [x] Build satellite comparison and annual-loss R scripts.
+- [x] Generate R maps and interpret supported descriptive results.
+- [x] Include complete self-contained scripts.
+- [x] Include PNG figures and processed CSV/GeoJSON exports.
+- [x] Audit coverage and run sample-based classification sensitivity.
+- [x] Build a visual-first interactive dashboard with inspectable sources.
+- [ ] Full-area threshold/observation sensitivity at 10 m.
+- [ ] Independent reference-label accuracy assessment and area-adjusted uncertainty.
+
+**Status: exploratory analysis, share with the stated caveats.** The Earth Engine project reports restricted mode after exceeding its noncommercial compute quota; completed exports and local Hansen calculations remain usable.

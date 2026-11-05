@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "zone_rows": 6,
+  "grid_rows": 9412,
+  "max_transition_closure_error_km2": 1.16415321826935e-10,
+  "classification_accuracy": "Not assessed: no independent reference labels",
+  "interpretation": "Footprint-limited endpoint estimates; no national extrapolation"
+}

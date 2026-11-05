@@ -1,0 +1,11 @@
+Source: Hansen/UMD/Google/USGS/NASA, GFC 2025 v1.13.
+2015–2025 inclusive includes ELEVEN annual loss observations.
+The Dynamic World satellite comparison is supplementary; it is not used to quantify this loss series.
+This workflow addresses mapped gross loss only; it does not estimate 2015–2025 gain or net tree-cover change.
+Year-2000 canopy >=30% is not 2015 tree-cover extent; later-established trees may be omitted.
+Mapped loss includes stand-replacement disturbances; it is not automatically permanent deforestation.
+Area-normalization controls geographic size only, not baseline tree cover, ecosystem differences or mapping error.
+Annual comparability is affected by sensor, observation availability and algorithm changes.
+No confidence intervals, causal attribution or inferential tests were fabricated.
+Hansen source/use notes: https://storage.googleapis.com/earthenginepartners-hansen/GFC-2025-v1.13/download.html
+FAO GAUL 2015 is a fixed, deprecated boundary vintage with separate non-commercial-use conditions.

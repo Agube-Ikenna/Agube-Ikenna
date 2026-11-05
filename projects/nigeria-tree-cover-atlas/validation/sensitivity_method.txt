@@ -1,0 +1,5 @@
+200 random points per zone; seed 20152025; 10 m nearest-pixel sampling.
+Nine settings: mean tree probability 0.4/0.5/0.6 and minimum predictions 1/2/3.
+Sample percentages are conditional on paired points. Sparse zones may have no estimable change.
+These are sensitivity diagnostics, not full-area estimates, confidence intervals or independent accuracy validation.
+Minimum predictions are prediction counts; overlapping source tiles may not represent unique acquisition dates.

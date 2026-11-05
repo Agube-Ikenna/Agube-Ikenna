@@ -1,0 +1,15 @@
+.atlas { color:var(--text); }
+.atlas .atlas-note { color:var(--secondary); font-size:14px; line-height:1.55; margin:16px 0 24px; max-width:1000px; }
+.atlas .atlas-important { border-left:3px solid var(--chart-2);padding-left:14px; }
+.atlas-satellite { width:100%;max-height:560px;object-fit:contain;background:white; }
+.atlas-hotspots { display:block;width:100%;max-height:650px;object-fit:contain;background:white; }
+.atlas-map { position:relative; }
+.atlas-map svg { display:block;width:100%;height:315px; }
+.atlas-map path { cursor:pointer; }
+.atlas-map path:focus { outline:none;stroke:var(--chart-2);stroke-width:4; }
+.atlas-tooltip { min-height:72px;font-size:13px;display:flex;flex-direction:column;gap:3px;padding:10px 0;color:var(--secondary); }
+.atlas-tooltip strong { color:var(--text); }
+.atlas-legend { display:flex;gap:9px;align-items:center;font-size:12px;flex-wrap:wrap; }
+.atlas-legend i { height:9px;min-width:100px;background:linear-gradient(to right,hsl(180 55% 76%),hsl(20 55% 42%)); }
+.atlas-no-data { margin-left:12px; }
+@media(max-width:600px){.atlas-satellite{min-height:180px;}.atlas-map svg{height:270px;}}

@@ -1,0 +1,3 @@
+Hotspot loss-per-baseline threshold: 96.2970581130127 percent
+No inference of causal drivers or statistical hotspot significance.
+Persistent means tree at both endpoints; intermediate loss/regrowth is not measured.
